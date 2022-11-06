@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NetflixActivity"
+    android:background="#197">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/offer1"
+            android:layout_width="375dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFC107"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/offer1text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/bungee"
+                    android:includeFontPadding="false"
+                    android:text="Rs.20/-"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/offer1text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/offer1text1"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="Validity: 1 Day"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/offer1text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/offer1text2"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="1Screen     480p    TV,Phone,Tablet,PC"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/offer2"
+            android:layout_width="375dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFC107"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/offer2text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/bungee"
+                    android:includeFontPadding="false"
+                    android:text="Rs.50/-"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/offer2text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/offer2text1"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="Validity: 3 Days"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/offer2text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/offer2text2"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="1Screen     480p    TV,Phone,Tablet,PC"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/offer3"
+            android:layout_width="375dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFC107"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/offer3text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/bungee"
+                    android:includeFontPadding="false"
+                    android:text="Rs.70/-"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/offer3text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/offer3text1"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="Validity: 10 Days"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/offer3text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/offer3text2"
+                    android:layout_centerInParent="true"
+                    android:includeFontPadding="false"
+                    android:text="1Screen     480p    TV,Phone,Tablet,PC"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

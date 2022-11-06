@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674833800401",
+    "project_id": "ott-able",
+    "storage_bucket": "ott-able.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674833800401:android:91af5d4725c2ced83a39f0",
+        "android_client_info": {
+          "package_name": "com.example.ren_show"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674833800401-ggq13r4be3c9aurpque52fru96dune5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgcu6Fzx6vZU5fk62ecnU26qYwPPd5u7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674833800401-ggq13r4be3c9aurpque52fru96dune5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
